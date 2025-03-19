@@ -135,7 +135,7 @@ export function DreamResult({ interpretation, dream }: DreamResultProps) {
     // Add site URL at the bottom
     ctx.font = "24px Arial"
     ctx.textAlign = "center"
-    ctx.fillText("interpret.ai.vercel.app", canvas.width / 2, canvas.height - 50)
+    ctx.fillText("interpretai.vercel.app", canvas.width / 2, canvas.height - 50)
 
     // Convert canvas to blob
     return new Promise((resolve, reject) => {
